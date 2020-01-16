@@ -36,14 +36,14 @@ class OpenscenegraphConan(ConanFile):
 
     requires = (
         "zlib/1.2.11",
-        "freetype/2.9.0@bincrafters/stable",
+        "freetype/2.10.1",
         "libjpeg/9c",
         "libxml2/2.9.9",
         "libcurl/7.67.0",
         "libpng/1.6.37",
-        "libtiff/4.0.9",
-        "sdl2/2.0.9@bincrafters/stable",
+        "libtiff/4.0.9",        
         "jasper/2.0.14",
+        "sdl2/2.0.10@bincrafters/stable",
         "cairo/1.17.2@bincrafters/stable",
         # "openblas/0.2.20@conan/stable", Removed until openblas is in conan center
     )
